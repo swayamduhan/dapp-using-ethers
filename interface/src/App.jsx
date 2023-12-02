@@ -76,6 +76,7 @@ export default function App() {
     setAccounts(acc)
     setCurrentAccount(acc[0])
     getBalance(acc[0])
+    console.log("Account changed.")
   }
 
   return (
