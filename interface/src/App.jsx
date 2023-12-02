@@ -51,8 +51,20 @@ export default function App() {
   }
 
   // LISTEN FOR EVENTS
-  window.ethereum.on("chainChanged", chainHandler)
-  window.ethereum.on("accountsChanged", accountHandler)
+  useEffect(() => {
+    // Check if window.ethereum is defined before attaching event listeners
+    if (window.ethereum) {
+      // LISTEN FOR EVENTS
+      window.ethereum.on("chainChanged", chainHandler);
+      window.ethereum.on("accountsChanged", accountHandler);
+
+      // Cleanup function to remove event listeners when the component unmounts
+      return () => {
+        window.ethereum.off("chainChanged", chainHandler);
+        window.ethereum.off("accountsChanged", accountHandler);
+      };
+    }
+  }, []);
 
   // CHAIN HANDLING
   function chainHandler() {
