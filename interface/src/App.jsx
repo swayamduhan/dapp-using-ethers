@@ -85,7 +85,7 @@ export default function App() {
       )}
       {!connected && (
         <button className="login-btn" onClick={handleConnect}>
-          Connect
+          Conn
         </button>
       )}
     </main>
