@@ -8,7 +8,7 @@ This app is used to fund ETH to the contract and withdraw them to the owner wall
 
 ## Local Setup
 - clone this repository using `git clone`
-- run `yarn` or `npm i`
+- run `yarn` or `npm i` to install all dependencies
 - run `yarn dev` or `npm run build` to start the local frontend webpage
 - start interacting with the frontend
 
