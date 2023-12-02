@@ -1,7 +1,7 @@
 const { ethers } = require('hardhat')
 
 async function main(){
-  const contract = await ethers.getContractFactory('Metacrafters')
+  const contract = await ethers.getContractFactory('SendETH')
   console.log('Deploying, please wait...')
   const deployedContract = await contract.deploy()
   await deployedContract.waitForDeployment()

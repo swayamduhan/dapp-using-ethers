@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 error notOwner();
 
 
-contract Metacrafters {
+contract SendETH {
     address private immutable i_owner; // owner address
     uint256 public constant MINIMUM_AMOUNT = 0.0001*10**18; // 0.0001 ether in wei
     address[] public funders; // list of funders
