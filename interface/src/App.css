@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #6dbaad;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5a9c8b;
+  }
+  
+  .logout-btn {
+    background-color: #d9534f;
+  }
+  
+  .para {
+    margin: 10px;
+    color: #444;
+  }
+  
+  .login-btn {
+    background-color: #87bdd8;
+  }
+  
+  .form-data {
+    margin-top: 20px;
+  }
+  
+  .txt-area {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .person {
+    margin-top: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    button {
+      width: 100%; /* Make buttons 100% width on mobile */
+    }
+  
+    .txt-area {
+      width: calc(100% - 10px); /* Adjust for padding and margin */
+    }
+  
+    .form-data fieldset {
+      margin: 0; /* Remove margin for fieldset on mobile */
+    }
+  }
