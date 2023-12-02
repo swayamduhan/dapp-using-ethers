@@ -1,5 +1,5 @@
 # SendETH dApp
-made with React+Vite and Solidity in Hardhat environment using ethersjs <3  
+made with React+Vite and Solidity in Hardhat environment using ethersJS <3  
 Deployed on Sepolia TestNet [. . . here . . .](https://dapp-ethers-swayam.netlify.app/)
 
 ## Overview
