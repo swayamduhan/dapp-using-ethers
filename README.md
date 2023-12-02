@@ -13,5 +13,5 @@ This app is used to fund ETH to the contract and withdraw them to the owner wall
 - start interacting with the frontend
 
 ## Authors
-Swayam Duhan
+Swayam Duhan  
 @swayamwins on discord
