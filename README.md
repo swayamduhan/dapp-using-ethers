@@ -1,6 +1,7 @@
 # SendETH dApp
 made with React+Vite and Solidity in Hardhat environment using ethersJS <3  
-Deployed on Sepolia TestNet [. . . here . . .](https://dapp-ethers-swayam.netlify.app/)
+Deployed on Sepolia TestNet [. . . here . . .](https://dapp-ethers-swayam.netlify.app/)  
+(use only SepoliaETH to interact here)
 
 ## Overview
 This app is used to fund ETH to the contract and withdraw them to the owner wallet. Moreover, it can be used to add favorite numbers of various users using a mapping.
